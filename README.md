@@ -10,11 +10,9 @@ Author: Hojin Kim
 
 |file                           | Description   |
 |:------------------------------|:--------------|
-|raster_shift.py                | shift (affine transformation) a raster file in x/y direction with a user defined pixel counts in geographic coordinate systems |
-|clip_raster_to_polygon.py      | clip a raster file to polygon either a single feature or  multiple features from the attribute table |
-|rgb_image_rotator.py | rotate raster file (rgb geotiff format) to an arbitrary angle |
-|update_raster_geotiff_header.py | update imagery geotiff header based on twf file |
-|image_utmzone_finder.py | find matching utm zone from image with geographic coordinate system |
-|image_chunker.py | chunk imagery data by user defined window size |
-|quad_blob_estimation.py | estimate percentage of blob area from each quad section | 
-|extract_validation_data_image.py | little automated qa/qc tool for checking output image and products match and the algorithm works and generated expected output |  
+|compute_gdd_from_weatherData.R  | Compute Growing Degree Days from weather station data |
+|county_damage_analysis.R      | Analyse crop/fram damage with country level using USDA farm insurance data|
+|extract_modis_pixelValues_plot_cumNDVI.R | Extract values from historical MOD13 NDVI at pixel level and yearly NDVI variation  |
+|farm_insurance_claim_map.R | Analyse farm insurance with different paramters |
+|processing_mod11a_temperature.R | Download MOD11A tempeature data and extract values |
+|proessing_precipitation.R | Extract historical precipiration from NOAA/USGS weather stations | 
